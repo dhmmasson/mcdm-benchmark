@@ -1,4 +1,10 @@
 {
   "name": "@dhmmasson/mcdm-benchmark",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.6"
+  },
+  "exports": {
+    "./permutation": "./generator/utils/permutation.ts"
+  }
 }
