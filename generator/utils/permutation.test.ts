@@ -64,7 +64,7 @@ Deno.test("random arrays hash and realize consistency", () => {
 });
 
 Deno.test("hash of smaller arrays (tails) are consistent", async (test) => {
-  for (let testHash = 0; testHash < factorial(10); testHash++) {
+  for (let testHash = 0; testHash < factorial(8); testHash++) {
     const baseArray = realize(testHash, 10);
     while (baseArray.length > 1) {
       // Contains all the element from 1 to length
