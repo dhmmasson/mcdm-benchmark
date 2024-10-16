@@ -2,7 +2,8 @@
   "name": "@dhmmasson/mcdm-benchmark",
   "version": "1.0.0",
   "imports": {
-    "@std/assert": "jsr:@std/assert@^1.0.6"
+    "@std/assert": "jsr:@std/assert@^1.0.6",
+    "random": "npm:random@^5.1.1"
   },
   "exports": {
     "./permutation": "./generator/utils/permutation.ts"
